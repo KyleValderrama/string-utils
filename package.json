@@ -1,6 +1,6 @@
 {
   "name": "string-utils-chainable",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "git@github.com:KyleValderrama/string-utils.git",
   "author": "Kyle Valderrama <valderrama.kyle@gmail.com>",
