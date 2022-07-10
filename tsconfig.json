@@ -7,6 +7,6 @@
     "lib": ["es6", "dom", "es2017"],
     "strict": true
   },
-  "include": ["src/**/*", "types/**/*"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "**/__tests__/*"]
 }
