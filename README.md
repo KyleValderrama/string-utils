@@ -2,4 +2,4 @@
 
 ### Installation
 
-`npm install --save string-utils-chainable` or `yarn install --save string-utils-chainable`
+`npm install --save string-utils-chainable` or `yarn add string-utils-chainable`
