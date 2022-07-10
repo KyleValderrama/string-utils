@@ -1,3 +1,5 @@
+export {};
+
 String.prototype.lower = function () {
   return this.toLowerCase();
 };
@@ -16,17 +18,17 @@ String.prototype.u = function () {
 
 String.prototype.capitalize = function (e) {
   switch (typeof e) {
-    case "number":
-      return this.split("")
+    case 'number':
+      return this.split('')
         .map((x, i) => (i === e ? x.l() : x.u()))
-        .join("");
-    case "object":
-      return this.split("")
+        .join('');
+    case 'object':
+      return this.split('')
         .map((x, i) => (e.includes(i) ? x.l() : x.u()))
-        .join("");
+        .join('');
     default:
-      return this.split(" ")
+      return this.split(' ')
         .map((x, i) => (i ? x.l() : x.u()))
-        .join(" ");
+        .join(' ');
   }
 };
